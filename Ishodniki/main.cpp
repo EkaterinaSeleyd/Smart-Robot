@@ -107,7 +107,7 @@ public:
 			{
 				state = State_MoveForvard;
 			}
-			else if (det->graffity_yes())//если есть граффити, запускается чистка                              ->
+			else if (det->graffity_yes())//если есть граффити, запускается чистка
 			{
 				state = State_Clean;
 			}
